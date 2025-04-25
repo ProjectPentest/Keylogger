@@ -1,10 +1,10 @@
 # Inhaltsverzeichnis / Table of Contents
-- [Keylogger 🇩🇪](#deutsch-)
-- [Keylogger 🇬🇧](#english-)
+- [Keylogger 🇩🇪](#Keylogger-DE-)
+- [Keylogger 🇬🇧](#Keylogger-GB-)
 
 ---
 
-# Keylogger 🇩🇪
+# Keylogger-DE
 
 Ein einfacher Keylogger, der in Python unter Verwendung der Bibliothek 'pynput' geschrieben wurde. Dieser Python-Keylogger demonstriert, wie Tastenanschläge erfasst und in einer Datei ('keyfile.txt') protokolliert werden können. Innerhalb des Skripts werden spezielle Tasten (wie 'Enter', 'Tab' und Modifikatortasten wie 'Strg' und 'Shift') besonders behandelt, um die Ausgabe lesbarer zu machen und ein Beispiel für ereignisgesteuerte Programmierung zu geben.
 
@@ -81,7 +81,7 @@ Im Folgenden werden hypothetische Möglichkeiten aufgezeigt, was geändert werde
 
 ---
 
-# Keylogger 🇬🇧
+# Keylogger-GB
 
 A simple keylogger written in python using the 'pynput' library. This Python Keylogger demonstrates how to capture and log keystrokes into a file ('keyfile.txt'). Within the script special keys (like 'Enter', 'Tab', and modifier keys like 'Ctrl' and 'Shift') are handled specially to make the output more human readable and provides an example of event-driven programming.
 
