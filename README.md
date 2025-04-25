@@ -1,4 +1,89 @@
-# Keylogger-Detection
+# Inhaltsverzeichnis / Table of Contents
+- [Keylogger 🇩🇪](#keylogger-de)
+- [Keylogger 🇬🇧](#keylogger-gb)
+
+---
+
+<h2 id="deutsch" style="display:none;"></h2>
+
+# Keylogger-DE
+
+Ein einfacher Keylogger, der in Python unter Verwendung der Bibliothek 'pynput' geschrieben wurde. Dieser Python-Keylogger demonstriert, wie Tastenanschläge erfasst und in einer Datei ('keyfile.txt') protokolliert werden können. Innerhalb des Skripts werden spezielle Tasten (wie 'Enter', 'Tab' und Modifikatortasten wie 'Strg' und 'Shift') besonders behandelt, um die Ausgabe lesbarer zu machen und ein Beispiel für ereignisgesteuerte Programmierung zu geben.
+
+## Ethische Erwägungen und rechtliche Hinweise
+
+⚠️ **Wichtig**: Dieses Projekt ist ausschließlich für pädagogische Zwecke bestimmt und sollte nur in kontrollierten Umgebungen mit Zustimmung aller Beteiligten verwendet werden. Unerlaubtes Keylogging ist illegal und unethisch.
+
+## Features
+
+- **Tastenanschläge werden aufgezeichnet**: Protokolliert jeden Tastendruck in einem Puffer
+- **Sondertastenbehandlung**: Enthält Belegungen für Sondertasten wie 'Enter', 'Tab', 'Backspace' und Modifikatortasten ('Strg', 'Shift', etc.).
+- **Steuerung der Protokollierung**: Stoppt die Protokollierung, wenn der Benutzer eine vordefinierte Tastenkombination drückt ('Strg + Alt + Entf').
+- **Gepufferte Protokollierung**: Puffert Tastenanschläge und schreibt sie in eine Datei, wenn bestimmte Tasten gedrückt werden ('Enter' oder 'Tab').
+
+## Gelernte Fähigkeiten
+- Verständnis der ereignisgesteuerten Programmierung und der Behandlung von Tastenereignissen.
+- Beherrschung der Verwendung von Python-Bibliotheken wie „pynput“ zur Erfassung von Tastatureingaben.
+- Kenntnis spezieller Tastenhandhabungs- und Protokollierungsmechanismen.
+- Vertrautheit mit dem Schreiben von und dem Anhängen an Dateien zur Protokollierung von Daten.
+- Bewusstsein für die ethischen und rechtlichen Implikationen von Keylogging-Software.
+
+## Verwendete Tools
+
+- Python 3.13.2 für die Implementierung des Keyloggers.
+- pynput-Bibliothek zum Abhören von Tastaturereignissen und zur Verarbeitung von Tastendrücken.
+- VSCode zum Codieren und Testen.
+
+## Vorgehensweise
+
+1. Repository klonen:
+
+```bash
+git clone https://github.com/ProjectPentest/Keylogger.git
+cd Keylogger
+```
+
+2. Erstellen und aktivieren der virtuellen Umgebung (Windows):
+
+```python
+python -m venv .venv
+.venv/Scripts/activate
+```
+
+3. Keylogger-Skript starten:
+
+```python
+python keylogger.pyw
+```
+
+4. Beenden des Keyloggers:
+
+   Drücken Sie `Strg + Alt + Entf`.
+
+5. Prüfen der Aufzeichnungen:
+
+   Prüfen Sie „keyfile.txt“ im aktuellen Verzeichnis, um die protokollierten Tastenanschläge zu sehen.
+
+## Potenzielle Erweiterungen und Möglichkeiten
+
+Im Folgenden werden hypothetische Möglichkeiten aufgezeigt, was geändert werden könnte. Der Fokus dieser Änderungen liegt immer auf dem ethischen Teil der Erkennung dieser Mechanismen und wie man verhindern kann, dass diese Mechanismen ausgenutzt werden.
+
+1. Versenden von Logdateien per E-Mail/ HTTP POST-Request
+   - Implementieren Sie eine Funktion, bei der Protokolle an eine vordefinierte E-Mail Adresse/einen
+     Remote-Server gesendet werden, anstatt in eine Datei geschrieben zu werden
+   - Gewährleistung einer sicheren Übertragung
+2. Datenverschlüsselung und Sicherheit
+   - Tastenanschläge könnten verschlüsselt werden, bevor sie gespeichert oder übertragen werden.
+  
+## Beispiel Screenshots:
+
+**Ref 1: Beispielhafte Ausgabe der Logdatei des Keyloggers**
+
+![Keylogger Output](https://i.imgur.com/UAr31dR.png)
+
+---
+
+# Keylogger-GB
 
 A simple keylogger written in python using the 'pynput' library. This Python Keylogger demonstrates how to capture and log keystrokes into a file ('keyfile.txt'). Within the script special keys (like 'Enter', 'Tab', and modifier keys like 'Ctrl' and 'Shift') are handled specially to make the output more human readable and provides an example of event-driven programming.
 
