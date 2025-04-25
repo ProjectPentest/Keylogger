@@ -4,8 +4,6 @@
 
 ---
 
-<h2 id="deutsch" style="display:none;"></h2>
-
 # Keylogger-DE
 
 Ein einfacher Keylogger, der in Python unter Verwendung der Bibliothek 'pynput' geschrieben wurde. Dieser Python-Keylogger demonstriert, wie Tastenanschläge erfasst und in einer Datei ('keyfile.txt') protokolliert werden können. Innerhalb des Skripts werden spezielle Tasten (wie 'Enter', 'Tab' und Modifikatortasten wie 'Strg' und 'Shift') besonders behandelt, um die Ausgabe lesbarer zu machen und ein Beispiel für ereignisgesteuerte Programmierung zu geben.
