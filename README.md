@@ -1,11 +1,11 @@
 # Inhaltsverzeichnis / Table of Contents
-- [Deutsch 🇩🇪](#deutsch-)
-- [English 🇬🇧](#english-)
+
+- [Deutsch 🇩🇪](#keylogger-de)
+- [English 🇬🇧](#keylogger-gb)
 
 ---
 
-## Deutsch 🇩🇪
-### Keylogger
+### Keylogger-DE
 
 Ein einfacher Keylogger, der in Python unter Verwendung der Bibliothek 'pynput' geschrieben wurde. Dieser Python-Keylogger demonstriert, wie Tastenanschläge erfasst und in einer Datei ('keyfile.txt') protokolliert werden können. Innerhalb des Skripts werden spezielle Tasten (wie 'Enter', 'Tab' und Modifikatortasten wie 'Strg' und 'Shift') besonders behandelt, um die Ausgabe lesbarer zu machen und ein Beispiel für ereignisgesteuerte Programmierung zu geben.
 
@@ -21,6 +21,7 @@ Ein einfacher Keylogger, der in Python unter Verwendung der Bibliothek 'pynput' 
 - **Gepufferte Protokollierung**: Puffert Tastenanschläge und schreibt sie in eine Datei, wenn bestimmte Tasten gedrückt werden ('Enter' oder 'Tab').
 
 #### Gelernte Fähigkeiten
+
 - Verständnis der ereignisgesteuerten Programmierung und der Behandlung von Tastenereignissen.
 - Beherrschung der Verwendung von Python-Bibliotheken wie „pynput“ zur Erfassung von Tastatureingaben.
 - Kenntnis spezieller Tastenhandhabungs- und Protokollierungsmechanismen.
@@ -73,7 +74,7 @@ Im Folgenden werden hypothetische Möglichkeiten aufgezeigt, was geändert werde
    - Gewährleistung einer sicheren Übertragung
 2. Datenverschlüsselung und Sicherheit
    - Tastenanschläge könnten verschlüsselt werden, bevor sie gespeichert oder übertragen werden.
-  
+
 #### Beispiel Screenshots:
 
 **Ref 1: Beispielhafte Ausgabe der Logdatei des Keyloggers**
@@ -82,8 +83,7 @@ Im Folgenden werden hypothetische Möglichkeiten aufgezeigt, was geändert werde
 
 ---
 
-## English 🇬🇧
-### Keylogger
+### Keylogger-GB
 
 A simple keylogger written in python using the 'pynput' library. This Python Keylogger demonstrates how to capture and log keystrokes into a file ('keyfile.txt'). Within the script special keys (like 'Enter', 'Tab', and modifier keys like 'Ctrl' and 'Shift') are handled specially to make the output more human readable and provides an example of event-driven programming.
 
