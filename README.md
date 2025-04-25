@@ -1,8 +1,10 @@
 # Inhaltsverzeichnis / Table of Contents
-- [Keylogger 🇩🇪](#Keylogger-DE-)
-- [Keylogger 🇬🇧](#Keylogger-GB-)
+- [Keylogger 🇩🇪](#keylogger-de)
+- [Keylogger 🇬🇧](#keylogger-gb)
 
 ---
+
+<h2 id="deutsch" style="display:none;"></h2>
 
 # Keylogger-DE
 
